@@ -94,3 +94,11 @@ body.theme-luka .award-text {
     font-size: 15px;
   }
 }
+
+
+body.theme-luka .github-icon svg {
+  width: 21px;
+  height: 21px;
+  display: block;
+  fill: currentColor;
+}
