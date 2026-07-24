@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title id="title">ZJU-UIUC Institute mark</title>
+  <rect width="120" height="120" rx="16" fill="#fffaf2"/>
+  <path d="M24 31h72v14H24z" fill="#2f6f73"/>
+  <path d="M31 52h58v37H31z" fill="#dcebea"/>
+  <path d="M39 59h12v30H39zm19 0h12v30H58zm19 0h12v30H77z" fill="#2f6f73"/>
+  <path d="M22 94h76v8H22z" fill="#c68a3b"/>
+</svg>
