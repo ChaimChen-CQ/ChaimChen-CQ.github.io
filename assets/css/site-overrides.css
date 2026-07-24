@@ -170,3 +170,14 @@ body.theme-luka .project-image-link span {
     height: 420px;
   }
 }
+
+
+body.theme-luka .project-image-link--landscape {
+  height: 165px;
+}
+
+@media (max-width: 640px) {
+  body.theme-luka .project-image-link--landscape {
+    height: 240px;
+  }
+}
