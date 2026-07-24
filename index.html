@@ -2,190 +2,189 @@
 <html lang="en" class="no-js">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Qian Chen -- Homepage</title>
   <meta name="description" content="Qian Chen's personal academic homepage.">
   <meta name="keywords" content="Qian Chen, Chen Qian, 陈钱, robotics, embodied intelligence, mechanical engineering, ZJU-UIUC">
-  <title>Qian Chen / 陈钱</title>
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/font_sans_serif.css">
+  <link rel="stylesheet" href="assets/css/theme-luka.css">
+  <link rel="stylesheet" href="assets/css/site-overrides.css">
 </head>
-<body>
-  <nav class="top-nav" aria-label="Primary navigation">
-    <a class="brand" href="./">Qian Chen</a>
-    <div class="nav-links">
-      <a href="#about">Biography</a>
-      <a href="#education">Education</a>
-      <a href="#research">Research</a>
-      <a href="#experience">Experience</a>
-      <a href="#awards">Awards</a>
-      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme" title="Toggle theme">
-        <span aria-hidden="true">◐</span>
-      </button>
+<body class="theme-luka">
+  <nav class="top-nav">
+    <div class="nav-container">
+      <div class="nav-left">
+        <a href="./">Home</a>
+        <a href="#education">Education</a>
+        <a href="#research">Research</a>
+        <a href="#teaching">Teaching</a>
+      </div>
+      <div class="nav-right">
+        <button id="themeToggle" class="theme-toggle" title="Toggle theme" aria-label="Toggle theme">
+          <span aria-hidden="true">◐</span>
+        </button>
+      </div>
     </div>
   </nav>
 
-  <main class="page-shell">
-    <aside class="profile">
-      <div class="profile-panel">
-        <img class="avatar" src="assets/img/profile.jpg" alt="Qian Chen">
-        <p class="eyebrow">ZJU-UIUC / Mechanical Engineering</p>
-        <h1>Qian Chen <span>陈钱</span></h1>
-        <p class="profile-text">Undergraduate student focused on robotics, embodied intelligence, robot learning, motion control, and intelligent manufacturing systems.</p>
-        <div class="contact-list" aria-label="Contact links">
-          <a href="mailto:qian.23@intl.zju.edu.cn">Email</a>
-          <a href="https://github.com/ChaimChen-CQ" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <span class="locked-link" title="CV files are prepared but not publicly linked yet.">CV locked</span>
+  <div class="wrapper">
+    <header class="sidebar">
+      <div class="profile-card">
+        <a class="image avatar">
+          <img src="assets/img/profile.jpg" alt="Qian Chen">
+        </a>
+
+        <h1 class="site-name">Qian Chen</h1>
+        <p class="site-name-cn">陈钱</p>
+        <p class="site-email"><a href="mailto:qian.23@intl.zju.edu.cn">qian.23@intl.zju.edu.cn</a></p>
+
+        <div class="social-icons social-text-icons">
+          <a href="mailto:qian.23@intl.zju.edu.cn" title="Email">@</a>
+          <a href="https://github.com/ChaimChen-CQ" title="GitHub" target="_blank" rel="noopener noreferrer">GH</a>
+          <span title="CV files are prepared but not publicly linked yet.">CV</span>
         </div>
       </div>
-    </aside>
+    </header>
 
     <section class="content">
-      <section class="section intro-section" id="about">
-        <p class="section-kicker">Biography</p>
-        <h2>About Me</h2>
+      <div class="section" id="about">
+        <h2 class="section-title">About Me</h2>
         <div class="section-body">
-          <p>I am <strong>Qian Chen</strong>, a 2023-entry undergraduate in Mechanical Engineering at the <strong>Zhejiang University - UIUC Institute</strong>, expected to graduate in June 2027 with dual B.S. degrees from Zhejiang University and the University of Illinois Urbana-Champaign.</p>
-          <p>My work connects mechanical structure design, simulation modeling, reinforcement-learning-based motion control, and experimental validation. I am especially interested in embodied-intelligence robotics and automation control.</p>
+          <p>Hello! I am <strong>Qian Chen</strong>, a junior undergraduate in mechanical engineering at Zhejiang University and the University of Illinois Urbana-Champaign through the ZJU-UIUC Institute.</p>
+          <p>My interests focus on <strong>robotics</strong>, embodied intelligence, robot learning, motion control, automation control, and intelligent manufacturing systems. I hope to connect mechanical design, simulation modeling, learning-based control, and real-world validation in future research.</p>
         </div>
-      </section>
+      </div>
 
-      <section class="section" id="education">
-        <div class="section-heading">
-          <p class="section-kicker">Education</p>
-          <h2>Education</h2>
-        </div>
-        <div class="stack">
-          <article class="timeline-item">
-            <img class="logo" src="assets/img/zjui.svg" alt="ZJU-UIUC Institute logo mark">
-            <div>
-              <div class="timeline-head">
-                <h3>Zhejiang University - UIUC Institute</h3>
-                <span>2023.09 - 2027.06 expected</span>
+      <div class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <div class="section-body">
+          <div class="card">
+            <div class="experience-item">
+              <img src="assets/img/logos/ZJU.png" alt="Zhejiang University" class="institution-logo">
+              <div class="experience-content">
+                <p class="exp-title"><strong>Zhejiang University</strong></p>
+                <p class="exp-detail">B.S. in Mechanical Engineering</p>
+                <p class="exp-period">2023 - 2027</p>
               </div>
-              <p>B.S. in Mechanical Engineering, dual degree program with Zhejiang University and the University of Illinois Urbana-Champaign.</p>
             </div>
-          </article>
-          <article class="plain-block">
-            <h3>Core Coursework</h3>
-            <p>Mechanical System Dynamics, Solid Mechanics, Engineering Materials, Thermodynamics, Fluid Mechanics, Mechanical Design, Signal Processing, Analog Circuits and Systems, Statistics and Probability.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="research">
-        <div class="section-heading">
-          <p class="section-kicker">Research Interests</p>
-          <h2>Research Interests</h2>
-        </div>
-        <ul class="interest-list">
-          <li>Robotics and embodied intelligence</li>
-          <li>Robot learning and motion control</li>
-          <li>Automation control</li>
-          <li>Intelligent manufacturing systems</li>
-        </ul>
-      </section>
-
-      <section class="section" id="experience">
-        <div class="section-heading">
-          <p class="section-kicker">Experience</p>
-          <h2>Research / Project Experience</h2>
-        </div>
-        <div class="experience-list">
-          <article class="experience-item">
-            <div>
-              <p class="project-meta">2026.01 - Present · Advisor: Prof. Hua Chen, ZJUI</p>
-              <h3>Reinforcement Learning Based Locomotion Control for an Omnidirectional Wheeled-Bipedal Robot</h3>
-              <p>Configured IsaacLab and MuJoCo Playground environments, reproduced PPO locomotion policies, and organized a workflow from simulation training and sim-to-sim validation to sim-to-real deployment preparation.</p>
-              <div class="tag-list"><span>IsaacLab</span><span>MuJoCo</span><span>PPO</span><span>Sim-to-Real</span></div>
+          </div>
+          <div class="card">
+            <div class="experience-item">
+              <img src="assets/img/logos/UIUC.png" alt="University of Illinois Urbana-Champaign" class="institution-logo">
+              <div class="experience-content">
+                <p class="exp-title"><strong>University of Illinois Urbana-Champaign</strong></p>
+                <p class="exp-detail">B.S. in Mechanical Engineering</p>
+                <p class="exp-period">2023 - 2027</p>
+              </div>
             </div>
-          </article>
-
-          <article class="experience-item">
-            <div>
-              <p class="project-meta">2024.04 - 2026.04 · Advisor: Prof. Jiahuan Cui, ZJUI</p>
-              <h3>Mechanical Design and Optimization for RoboMaster Robots</h3>
-              <p>Designed and optimized robot structures for chassis stability, feeding reliability, and supercapacitor protection; completed CAD iteration, manufacturing, assembly validation, and competition preparation as a main team leader.</p>
-              <div class="tag-list"><span>RoboMaster</span><span>SolidWorks</span><span>Fusion 360</span><span>CNC</span></div>
+          </div>
+          <div class="card">
+            <div class="experience-item">
+              <img src="assets/img/logos/ZJUI.png" alt="ZJU-UIUC Institute" class="institution-logo institution-logo-wide">
+              <div class="experience-content">
+                <p class="exp-title"><strong>ZJU-UIUC Institute</strong></p>
+                <p class="exp-detail">Joint engineering program in Haining, Zhejiang</p>
+              </div>
             </div>
-          </article>
-
-          <article class="experience-item">
-            <div>
-              <p class="project-meta">2026.02 - 2026.04 · Advisor: Prof. Timothy Haw-Yu Lee, ZJUI</p>
-              <h3>Automatic Timed and Quantitative Feeding Device for Single Fruit Flies</h3>
-              <p>Completed CAD modeling, structural design, and fabrication for a compact laboratory feeding device, improving moving-part layout, assembly convenience, and experimental stability.</p>
-              <div class="tag-list"><span>CAD</span><span>Automation</span><span>Lab Device</span><span>Mechanical Design</span></div>
-            </div>
-          </article>
-
-          <article class="experience-item experience-item-featured">
-            <div>
-              <p class="project-meta">2024.06 - 2024.08 · Advisors: Prof. Peng Zhao and Prof. Chengqian Zhang, ZJU</p>
-              <h3>Magnetic Field Assisted 3D Printing and Flexible Actuator Optimization</h3>
-              <p>Designed grooved magnetic-responsive flexible actuators, simulated magnetic fields with COMSOL, programmed Arduino Mega for Helmholtz coil control, and verified opening, rolling, and climbing motions.</p>
-              <div class="tag-list"><span>Soft Robotics</span><span>COMSOL</span><span>Arduino</span><span>3D Printing</span></div>
-            </div>
-            <a class="project-figure" href="assets/projects/magnetic-soft-actuator.png" target="_blank" rel="noopener">
-              <img src="assets/projects/magnetic-soft-actuator.png" alt="Magnetic soft actuator project poster">
-            </a>
-          </article>
+          </div>
         </div>
-      </section>
+      </div>
 
-      <section class="section" id="teaching">
-        <div class="section-heading">
-          <p class="section-kicker">Teaching</p>
-          <h2>Teaching Experience</h2>
-        </div>
-        <div class="two-column">
-          <article class="plain-block">
-            <h3>Introduction to Solid Mechanics</h3>
-            <p>Instructor: Ye Shi · 2026.01 - 2026.06</p>
-          </article>
-          <article class="plain-block">
-            <h3>Introduction to Fluid Mechanics</h3>
-            <p>Instructor: Jiahuan Cui · 2026.01 - 2026.06</p>
-          </article>
-        </div>
-      </section>
+      <div class="section" id="research">
+        <h2 class="section-title">Research</h2>
+        <div class="section-body">
+          <div class="project-list">
+            <article class="project-entry">
+              <figure class="project-thumb project-thumb-placeholder"><span>RL</span></figure>
+              <div class="project-info">
+                <h3>Reinforcement Learning Based Locomotion Control for an Omnidirectional Wheeled-Bipedal Robot</h3>
+                <p class="project-authors"><strong>Qian Chen</strong>, Advisor: Prof. Hua Chen, ZJUI</p>
+                <p class="project-venue"><em>Robot learning, locomotion control, IsaacLab, MuJoCo, PPO, sim-to-real</em></p>
+                <p>Configured simulation environments, reproduced PPO locomotion policies, and organized a workflow from simulation training and sim-to-sim validation to sim-to-real deployment preparation.</p>
+              </div>
+            </article>
 
-      <section class="section" id="awards">
-        <div class="section-heading">
-          <p class="section-kicker">Awards</p>
-          <h2>Honors & Awards</h2>
-        </div>
-        <ul class="award-list">
-          <li>Second Prize and Third Prize, RoboMaster University League Shanghai Regional, 2024-2026.</li>
-          <li>Second and Third Class Scholarships, Zhejiang University, 2024 and 2025.</li>
-          <li>Third Class Scholarship, ZJU-UIUC Institute, 2024 and 2025.</li>
-          <li>Third Prize, ZJU Concrete Dragon Boat Competition, Team Leader, 2024.</li>
-          <li>Successful Participant Award, Mathematical Contest in Modeling, 2025.</li>
-          <li>Dean's List of Grainger Engineering, UIUC, Fall 2025.</li>
-          <li>Fifth Place, ZJU Table Tennis Team Competition, main player, 2023 and 2024.</li>
-        </ul>
-      </section>
+            <article class="project-entry">
+              <figure class="project-thumb project-thumb-placeholder"><span>RM</span></figure>
+              <div class="project-info">
+                <h3>Mechanical Design and Optimization for RoboMaster Robots</h3>
+                <p class="project-authors"><strong>Qian Chen</strong>, Advisor: Prof. Jiahuan Cui, ZJUI</p>
+                <p class="project-venue"><em>Mechanical design, SolidWorks, Fusion 360, 3D printing, CNC, laser cutting</em></p>
+                <p>Designed and optimized robot structures for chassis stability, feeding reliability, and supercapacitor protection; completed CAD iteration, fabrication, assembly validation, and competition preparation.</p>
+              </div>
+            </article>
 
-      <section class="section" id="skills">
-        <div class="section-heading">
-          <p class="section-kicker">Skills</p>
-          <h2>Skills</h2>
-        </div>
-        <div class="skills-grid">
-          <div><strong>Hardware / CAD</strong><span>Fusion 360, SolidWorks, COMSOL, 3D printing, CNC, laser cutting</span></div>
-          <div><strong>Programming</strong><span>Python, MATLAB, Arduino, LaTeX</span></div>
-          <div><strong>Languages</strong><span>CET-6: 546; TOEFL: 5.5/6</span></div>
-        </div>
-      </section>
+            <article class="project-entry">
+              <figure class="project-thumb project-thumb-placeholder"><span>AF</span></figure>
+              <div class="project-info">
+                <h3>Automatic Timed and Quantitative Feeding Device for Single Fruit Flies</h3>
+                <p class="project-authors"><strong>Qian Chen</strong>, Advisor: Prof. Timothy Haw-Yu Lee, ZJUI</p>
+                <p class="project-venue"><em>Automation device, CAD modeling, laboratory mechanism design</em></p>
+                <p>Completed CAD modeling, structural design, and fabrication for a compact laboratory feeding device, improving moving-part layout, assembly convenience, and experimental stability.</p>
+              </div>
+            </article>
 
-      <footer class="site-footer">
-        <p>© 2026 Qian Chen. All rights reserved.</p>
-        <p>Inspired by the Luka Homepage academic layout.</p>
-      </footer>
+            <article class="project-entry">
+              <figure class="project-thumb">
+                <img src="assets/projects/magnetic-soft-actuator.png" alt="Magnetic soft actuator project poster" loading="lazy">
+              </figure>
+              <div class="project-info">
+                <h3>Magnetic Field Assisted 3D Printing and Flexible Actuator Optimization</h3>
+                <p class="project-authors"><strong>Qian Chen</strong>, Advisors: Prof. Peng Zhao and Prof. Chengqian Zhang, ZJU</p>
+                <p class="project-venue"><em>Soft robotics, COMSOL, Arduino, magnetic actuation, 3D printing</em></p>
+                <p>Designed grooved magnetic-responsive flexible actuators, simulated magnetic fields with COMSOL, programmed Arduino Mega for Helmholtz coil control, and verified opening, rolling, and climbing motions.</p>
+                <div class="project-links">
+                  <a href="assets/projects/magnetic-soft-actuator.png" target="_blank" rel="noopener noreferrer">Media</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="teaching">
+        <h2 class="section-title">Teaching</h2>
+        <div class="section-body">
+          <ul>
+            <li>Introduction to Solid Mechanics, Zhejiang University (Spring 2026)</li>
+            <li>Introduction to Fluid Mechanics, Zhejiang University (Spring 2026)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section" id="awards">
+        <h2 class="section-title">Awards</h2>
+        <div class="section-body">
+          <div class="awards-grid">
+            <div class="award-item"><span class="award-text"><strong>RoboMaster University League Shanghai Regional</strong>, Second Prize and Third Prize, 2024-2026</span></div>
+            <div class="award-item"><span class="award-text"><strong>Zhejiang University Scholarships</strong>, 2024 and 2025</span></div>
+            <div class="award-item"><span class="award-text"><strong>ZJU-UIUC Institute Scholarship</strong>, 2024 and 2025</span></div>
+            <div class="award-item"><span class="award-text"><strong>ZJU Concrete Dragon Boat Competition</strong>, Third Prize, Team Leader, 2024</span></div>
+            <div class="award-item"><span class="award-text"><strong>Mathematical Contest in Modeling</strong>, Successful Participant Award, 2025</span></div>
+            <div class="award-item"><span class="award-text"><strong>Dean's List of Grainger Engineering, UIUC</strong>, Fall 2025</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="section-body">
+          <p><strong>Hardware / CAD:</strong> Fusion 360, SolidWorks, COMSOL, 3D printing, CNC, laser cutting.</p>
+          <p><strong>Programming:</strong> Python, MATLAB, Arduino, LaTeX.</p>
+          <p><strong>Languages:</strong> CET-6, TOEFL.</p>
+        </div>
+      </div>
     </section>
-  </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Qian Chen. All rights reserved. Last updated: Jul 2026.</p>
+    </footer>
+  </div>
 
   <script src="assets/js/main.js"></script>
 </body>
