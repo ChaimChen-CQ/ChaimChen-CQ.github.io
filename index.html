@@ -16,10 +16,10 @@
   <nav class="top-nav" aria-label="Primary navigation">
     <a class="brand" href="./">Qian Chen</a>
     <div class="nav-links">
-      <a href="#about">About</a>
+      <a href="#about">Biography</a>
       <a href="#education">Education</a>
       <a href="#research">Research</a>
-      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
       <a href="#awards">Awards</a>
       <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme" title="Toggle theme">
         <span aria-hidden="true">◐</span>
@@ -37,42 +37,38 @@
         <div class="contact-list" aria-label="Contact links">
           <a href="mailto:qian.23@intl.zju.edu.cn">Email</a>
           <a href="https://github.com/ChaimChen-CQ" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="assets/cv/resume-en.pdf" target="_blank" rel="noopener">CV</a>
-          <a href="assets/cv/resume-cn.pdf" target="_blank" rel="noopener">中文简历</a>
+          <span class="locked-link" title="CV files are prepared but not publicly linked yet.">CV locked</span>
         </div>
       </div>
     </aside>
 
     <section class="content">
       <section class="section intro-section" id="about">
-        <p class="section-kicker">About Me</p>
-        <h2>Building robots that can move, adapt, and work in real environments.</h2>
+        <p class="section-kicker">Biography</p>
+        <h2>About Me</h2>
         <div class="section-body">
           <p>I am <strong>Qian Chen</strong>, a 2023-entry undergraduate in Mechanical Engineering at the <strong>Zhejiang University - UIUC Institute</strong>, expected to graduate in June 2027 with dual B.S. degrees from Zhejiang University and the University of Illinois Urbana-Champaign.</p>
           <p>My work connects mechanical structure design, simulation modeling, reinforcement-learning-based motion control, and experimental validation. I am especially interested in embodied-intelligence robotics and automation control.</p>
-        </div>
-        <div class="stats-grid" aria-label="Academic highlights">
-          <div><strong>3.83/4.0</strong><span>ZJU GPA, first 5 semesters</span></div>
-          <div><strong>4.0/4.0</strong><span>UIUC GPA, first 5 semesters</span></div>
-          <div><strong>6/56</strong><span>Major ranking</span></div>
         </div>
       </section>
 
       <section class="section" id="education">
         <div class="section-heading">
           <p class="section-kicker">Education</p>
-          <h2>Zhejiang University and UIUC dual degree program.</h2>
+          <h2>Education</h2>
         </div>
         <div class="stack">
-          <article class="info-card">
+          <article class="timeline-item">
             <img class="logo" src="assets/img/zjui.svg" alt="ZJU-UIUC Institute logo mark">
             <div>
-              <h3>Zhejiang University - UIUC Institute</h3>
-              <p>B.S. in Mechanical Engineering, 2023.09 - 2027.06 expected</p>
-              <span>Zhejiang University GPA 3.83/4.0; UIUC GPA 4.0/4.0; major rank 6/56.</span>
+              <div class="timeline-head">
+                <h3>Zhejiang University - UIUC Institute</h3>
+                <span>2023.09 - 2027.06 expected</span>
+              </div>
+              <p>B.S. in Mechanical Engineering, dual degree program with Zhejiang University and the University of Illinois Urbana-Champaign.</p>
             </div>
           </article>
-          <article class="text-card">
+          <article class="plain-block">
             <h3>Core Coursework</h3>
             <p>Mechanical System Dynamics, Solid Mechanics, Engineering Materials, Thermodynamics, Fluid Mechanics, Mechanical Design, Signal Processing, Analog Circuits and Systems, Statistics and Probability.</p>
           </article>
@@ -82,68 +78,52 @@
       <section class="section" id="research">
         <div class="section-heading">
           <p class="section-kicker">Research Interests</p>
-          <h2>Robotics, control, and intelligent manufacturing.</h2>
+          <h2>Research Interests</h2>
         </div>
-        <div class="focus-grid">
-          <article class="focus-item">
-            <h3>Robotics & Embodied AI</h3>
-            <p>Robotic systems that combine physical design, perception, decision-making, and action.</p>
-          </article>
-          <article class="focus-item">
-            <h3>Robot Learning & Motion Control</h3>
-            <p>Reinforcement learning, locomotion control, simulator workflows, and deployment thinking.</p>
-          </article>
-          <article class="focus-item">
-            <h3>Automation Control</h3>
-            <p>Reliable mechanisms and control strategies for laboratory and engineering automation.</p>
-          </article>
-          <article class="focus-item">
-            <h3>Smart Manufacturing Systems</h3>
-            <p>Hardware, process design, sensing, and optimization for practical manufacturing systems.</p>
-          </article>
-        </div>
+        <ul class="interest-list">
+          <li>Robotics and embodied intelligence</li>
+          <li>Robot learning and motion control</li>
+          <li>Automation control</li>
+          <li>Intelligent manufacturing systems</li>
+        </ul>
       </section>
 
-      <section class="section" id="projects">
+      <section class="section" id="experience">
         <div class="section-heading">
-          <p class="section-kicker">Projects</p>
-          <h2>Research and engineering experience.</h2>
+          <p class="section-kicker">Experience</p>
+          <h2>Research / Project Experience</h2>
         </div>
-        <div class="project-list">
-          <article class="project-card">
-            <div class="project-index">01</div>
+        <div class="experience-list">
+          <article class="experience-item">
             <div>
-              <p class="project-meta">2026.01 - Present · Robot Learning · Advisor: Prof. Hua Chen, ZJUI</p>
+              <p class="project-meta">2026.01 - Present · Advisor: Prof. Hua Chen, ZJUI</p>
               <h3>Reinforcement Learning Based Locomotion Control for an Omnidirectional Wheeled-Bipedal Robot</h3>
               <p>Configured IsaacLab and MuJoCo Playground environments, reproduced PPO locomotion policies, and organized a workflow from simulation training and sim-to-sim validation to sim-to-real deployment preparation.</p>
               <div class="tag-list"><span>IsaacLab</span><span>MuJoCo</span><span>PPO</span><span>Sim-to-Real</span></div>
             </div>
           </article>
 
-          <article class="project-card">
-            <div class="project-index">02</div>
+          <article class="experience-item">
             <div>
-              <p class="project-meta">2024.04 - 2026.04 · Mechanical Design · Advisor: Prof. Jiahuan Cui, ZJUI</p>
+              <p class="project-meta">2024.04 - 2026.04 · Advisor: Prof. Jiahuan Cui, ZJUI</p>
               <h3>Mechanical Design and Optimization for RoboMaster Robots</h3>
               <p>Designed and optimized robot structures for chassis stability, feeding reliability, and supercapacitor protection; completed CAD iteration, manufacturing, assembly validation, and competition preparation as a main team leader.</p>
               <div class="tag-list"><span>RoboMaster</span><span>SolidWorks</span><span>Fusion 360</span><span>CNC</span></div>
             </div>
           </article>
 
-          <article class="project-card">
-            <div class="project-index">03</div>
+          <article class="experience-item">
             <div>
-              <p class="project-meta">2026.02 - 2026.04 · Automation Device · Advisor: Prof. Timothy Haw-Yu Lee, ZJUI</p>
+              <p class="project-meta">2026.02 - 2026.04 · Advisor: Prof. Timothy Haw-Yu Lee, ZJUI</p>
               <h3>Automatic Timed and Quantitative Feeding Device for Single Fruit Flies</h3>
               <p>Completed CAD modeling, structural design, and fabrication for a compact laboratory feeding device, improving moving-part layout, assembly convenience, and experimental stability.</p>
               <div class="tag-list"><span>CAD</span><span>Automation</span><span>Lab Device</span><span>Mechanical Design</span></div>
             </div>
           </article>
 
-          <article class="project-card project-card-featured">
-            <div class="project-index">04</div>
+          <article class="experience-item experience-item-featured">
             <div>
-              <p class="project-meta">2024.06 - 2024.08 · Soft Robotics · Advisors: Prof. Peng Zhao and Prof. Chengqian Zhang, ZJU</p>
+              <p class="project-meta">2024.06 - 2024.08 · Advisors: Prof. Peng Zhao and Prof. Chengqian Zhang, ZJU</p>
               <h3>Magnetic Field Assisted 3D Printing and Flexible Actuator Optimization</h3>
               <p>Designed grooved magnetic-responsive flexible actuators, simulated magnetic fields with COMSOL, programmed Arduino Mega for Helmholtz coil control, and verified opening, rolling, and climbing motions.</p>
               <div class="tag-list"><span>Soft Robotics</span><span>COMSOL</span><span>Arduino</span><span>3D Printing</span></div>
@@ -158,14 +138,14 @@
       <section class="section" id="teaching">
         <div class="section-heading">
           <p class="section-kicker">Teaching</p>
-          <h2>Teaching Assistant, Zhejiang University.</h2>
+          <h2>Teaching Experience</h2>
         </div>
         <div class="two-column">
-          <article class="text-card">
+          <article class="plain-block">
             <h3>Introduction to Solid Mechanics</h3>
             <p>Instructor: Ye Shi · 2026.01 - 2026.06</p>
           </article>
-          <article class="text-card">
+          <article class="plain-block">
             <h3>Introduction to Fluid Mechanics</h3>
             <p>Instructor: Jiahuan Cui · 2026.01 - 2026.06</p>
           </article>
@@ -175,7 +155,7 @@
       <section class="section" id="awards">
         <div class="section-heading">
           <p class="section-kicker">Awards</p>
-          <h2>Honors and scholarships.</h2>
+          <h2>Honors & Awards</h2>
         </div>
         <ul class="award-list">
           <li>Second Prize and Third Prize, RoboMaster University League Shanghai Regional, 2024-2026.</li>
@@ -191,22 +171,13 @@
       <section class="section" id="skills">
         <div class="section-heading">
           <p class="section-kicker">Skills</p>
-          <h2>Tools I use.</h2>
+          <h2>Skills</h2>
         </div>
         <div class="skills-grid">
           <div><strong>Hardware / CAD</strong><span>Fusion 360, SolidWorks, COMSOL, 3D printing, CNC, laser cutting</span></div>
           <div><strong>Programming</strong><span>Python, MATLAB, Arduino, LaTeX</span></div>
           <div><strong>Languages</strong><span>CET-6: 546; TOEFL: 5.5/6</span></div>
         </div>
-      </section>
-
-      <section class="section life-section" id="life">
-        <div>
-          <p class="section-kicker">Life Gallery</p>
-          <h2>Travel, daily life, and moments worth keeping.</h2>
-          <p>The larger gallery from the previous personal website can be expanded here later; this page keeps one compact preview for GitHub Pages.</p>
-        </div>
-        <img src="assets/img/gallery-japan-fuji.jpg" alt="Lake Kawaguchi and Mount Fuji">
       </section>
 
       <footer class="site-footer">
