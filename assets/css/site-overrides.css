@@ -173,13 +173,12 @@ body.theme-luka .project-image-link span {
 
 
 body.theme-luka .project-image-link--landscape {
-  height: 165px;
+  aspect-ratio: 4 / 3;
+  height: auto;
 }
 
-@media (max-width: 640px) {
-  body.theme-luka .project-image-link--landscape {
-    height: 240px;
-  }
+body.theme-luka .project-image-link--landscape img {
+  object-fit: cover;
 }
 
 
