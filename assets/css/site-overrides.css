@@ -205,13 +205,13 @@ body.theme-luka .project-image-link--landscape img {
 body.theme-luka .image.avatar img {
   width: 260px;
   height: 260px;
-  object-position: 42% 18%;
+  object-position: 42% 28%;
 }
 
 @media (max-width: 640px) {
   body.theme-luka .image.avatar img {
     width: 176px;
     height: 176px;
-    object-position: 42% 18%;
+    object-position: 42% 28%;
   }
 }
